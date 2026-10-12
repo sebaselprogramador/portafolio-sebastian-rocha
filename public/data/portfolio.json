@@ -1,0 +1,22 @@
+{
+  "profile": {
+    "name": "Sebastian Rocha",
+    "initials": "SR",
+    "role": "Ingeniero de sistemas",
+    "intro": "Mi formación, mis proyectos y las ideas que llevo a la práctica.",
+    "about": "Soy Sebastian Rocha, ingeniero de sistemas. Este portafolio reúne mi perfil y será el espacio para compartir mis proyectos y mi trayectoria.",
+    "location": "",
+    "email": "sebastianrv2004@gmail.com",
+    "photo": "",
+    "heroPhoto": "",
+    "photoAlt": "Retrato personal"
+  },
+  "skills": [
+    { "name": "Angular", "description": "Tecnología utilizada para organizar este portafolio en componentes." },
+    { "name": "Bootstrap", "description": "Rejilla adaptable, navegación, botones y estilos de interfaz." },
+    { "name": "JSON", "description": "Contenido separado del diseño y cargado desde un archivo editable." }
+  ],
+  "education": [],
+  "projects": [],
+  "socials": []
+}
