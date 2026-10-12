@@ -65,10 +65,10 @@
               <article class="timeline-entry"><p class="period">{{ item.period }}</p><h3>{{ item.title }}</h3><p class="fw-semibold">{{ item.institution }}</p><p>{{ item.description }}</p></article>
             } @empty { <p class="empty-note">Próximamente compartiré mi formación y experiencia.</p> }
           </div>
-          <div class="col-lg-7"><h2>Herramientas de este proyecto</h2><p>Con qué está construido este portafolio.</p>
+          <div class="col-lg-7"><h2>Habilidades técnicas</h2><p>Las tecnologías con las que trabajo.</p>
             <div class="row g-3 mt-3">
               @for (skill of portfolio.skills; track skill.name) {
-                <div class="col-sm-4"><article class="skill-item h-100"><h3>{{ skill.name }}</h3><p>{{ skill.description }}</p></article></div>
+                <div class="col-sm-6 col-xl-4"><article class="skill-item h-100"><h3>{{ skill.name }}</h3><p>{{ skill.description }}</p></article></div>
               }
             </div>
           </div>

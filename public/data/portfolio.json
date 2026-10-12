@@ -2,21 +2,138 @@
   "profile": {
     "name": "Sebastian Rocha",
     "initials": "SR",
-    "role": "Ingeniero de sistemas",
-    "intro": "Mi formación, mis proyectos y las ideas que llevo a la práctica.",
-    "about": "Soy Sebastian Rocha, ingeniero de sistemas. Este portafolio reúne mi perfil y será el espacio para compartir mis proyectos y mi trayectoria.",
+    "role": "Estudiante de Ingeniería de Sistemas",
+    "intro": "Desarrollo aplicaciones web, móviles y de escritorio, y sistemas embebidos. Aquí está mi formación, mis habilidades y los proyectos que he construido.",
+    "about": "Soy Sebastián Rocha, estudiante de Ingeniería de Sistemas en la Universidad Privada Franz Tamayo (UNIFRANZ). Desarrollo software web y móvil, trabajo con bases de datos y también con electrónica embebida. Este portafolio funciona como mi currículum: formación, habilidades y proyectos que realicé de forma individual.",
     "location": "",
     "email": "sebastianrv2004@gmail.com",
-    "photo": "",
-    "heroPhoto": "",
-    "photoAlt": "Retrato personal"
+    "photo": "assets/img/perfil.jpg",
+    "heroPhoto": "assets/img/portada.jpg",
+    "photoAlt": "Sebastián sonriendo en un fotomontaje divertido de baby shower"
   },
   "skills": [
-    { "name": "Angular", "description": "Tecnología utilizada para organizar este portafolio en componentes." },
-    { "name": "Bootstrap", "description": "Rejilla adaptable, navegación, botones y estilos de interfaz." },
-    { "name": "JSON", "description": "Contenido separado del diseño y cargado desde un archivo editable." }
+    {
+      "name": "Frontend",
+      "description": "React, Vite, Angular, Bootstrap y Tailwind CSS."
+    },
+    {
+      "name": "Móvil",
+      "description": "React Native con Expo y fundamentos de Android en Java."
+    },
+    {
+      "name": "Backend",
+      "description": "Flask, PHP (POO y MVC), Node.js y NestJS."
+    },
+    {
+      "name": "Bases de datos",
+      "description": "PostgreSQL, Supabase, SQLite y SQL Server."
+    },
+    {
+      "name": "Escritorio",
+      "description": "Java con NetBeans, Swing y Maven."
+    },
+    {
+      "name": "Electrónica embebida",
+      "description": "Arduino, PIC y ESP32 con sensores y actuadores."
+    }
   ],
-  "education": [],
-  "projects": [],
-  "socials": []
+  "education": [
+    {
+      "title": "Ingeniería de Sistemas",
+      "institution": "Universidad Privada Franz Tamayo (UNIFRANZ), Facultad de Tecnología",
+      "period": "En curso",
+      "description": "Formación en desarrollo de software, bases de datos, redes, minería de datos y gestión de proyectos."
+    }
+  ],
+  "projects": [
+    {
+      "id": "smartcampus",
+      "title": "SmartCampus",
+      "category": "Web",
+      "description": "Sistema de información académico con navegación por roles para UNIFRANZ.",
+      "image": "",
+      "imageAlt": "",
+      "technologies": [
+        "PHP",
+        "MVC"
+      ],
+      "url": ""
+    },
+    {
+      "id": "fitmetrics-elite",
+      "title": "FitMetrics Elite",
+      "category": "Móvil",
+      "description": "Bitácora de entrenamiento para atletas de alto rendimiento, con versión web y móvil.",
+      "image": "",
+      "imageAlt": "",
+      "technologies": [
+        "React",
+        "Vite",
+        "React Native",
+        "Expo"
+      ],
+      "url": ""
+    },
+    {
+      "id": "inventario-calibracion",
+      "title": "Sistema de Inventario y Calibración",
+      "category": "Escritorio",
+      "description": "Registro de equipos y seguimiento de calibraciones con reportes en PDF.",
+      "image": "",
+      "imageAlt": "",
+      "technologies": [
+        "Java",
+        "Swing",
+        "Maven",
+        "SQLite"
+      ],
+      "url": ""
+    },
+    {
+      "id": "galeria-multimedia",
+      "title": "Galería de fotos y videos",
+      "category": "Web",
+      "description": "Aplicación con roles de acceso y metadatos de medios, publicada en Render.",
+      "image": "",
+      "imageAlt": "",
+      "technologies": [
+        "Flask",
+        "PostgreSQL",
+        "Render"
+      ],
+      "url": ""
+    },
+    {
+      "id": "optimizacion-rutas",
+      "title": "Optimización de rutas",
+      "category": "Web",
+      "description": "Aplicación que calcula rutas y las muestra sobre un mapa interactivo.",
+      "image": "",
+      "imageAlt": "",
+      "technologies": [
+        "Flask",
+        "Leaflet"
+      ],
+      "url": ""
+    },
+    {
+      "id": "investigacion-operaciones",
+      "title": "Tableros de Investigación de Operaciones",
+      "category": "Análisis",
+      "description": "Tableros con modelos de inventario (EOQ), cadenas de Markov y teoría de colas.",
+      "image": "",
+      "imageAlt": "",
+      "technologies": [
+        "SQL Server",
+        "Python"
+      ],
+      "url": ""
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/sebaselprogramador"
+    }
+  ]
 }
