@@ -7,7 +7,7 @@ Aplicación Angular con Bootstrap 5.3.3, basada en la plantilla **Laura** entreg
 Requisitos: Node.js 20.19 o superior de la rama 20, 22.12 o superior de la rama 22, o Node.js 24; npm. Se utiliza Angular 21 para ser compatible con el Node.js 20.20.2 del equipo.
 
 ```bash
-cd portafolio-personal
+cd portafolio-sebastian-rocha
 npm ci
 npm start
 ```
@@ -48,7 +48,7 @@ El contacto usa `mailto:`; abre el cliente de correo y no simula un envío. GitH
 
 ## GitHub Pages
 
-Este directorio está preparado para ser la **raíz de un repositorio independiente**. Su carpeta `.github/workflows` debe quedar en la raíz de ese repositorio para que GitHub ejecute el despliegue. El repositorio SmartCampus del espacio de trabajo no se ha reemplazado.
+Repositorio independiente: [sebaselprogramador/portafolio-sebastian-rocha](https://github.com/sebaselprogramador/portafolio-sebastian-rocha). Su carpeta `.github/workflows` está en la raíz para que GitHub ejecute el despliegue. El repositorio SmartCampus no se ha reemplazado.
 
 1. Crear o indicar el repositorio público del portafolio.
 2. Subir el contenido de este directorio, incluido `package-lock.json`, a su rama `main`.

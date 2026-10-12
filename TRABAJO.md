@@ -49,4 +49,4 @@ Se incorporaron los datos confirmados por el usuario: Sebastian Rocha, ingeniero
 - Vista de 390 × 844: menú móvil abre y cierra al seleccionar Contacto; la URL cambia a `#contacto`. Se revisó la disposición visual y se restauró el tamaño original.
 - No se comprobó el filtro con proyectos reales porque aún no se han recibido. No se realizó un envío de correo: el contacto abre el cliente del visitante.
 
-La publicación en GitHub Pages está pendiente del repositorio de destino y de acceso a la cuenta. No se ha publicado ni se presenta una URL local como una URL pública.
+El código se subió a un repositorio independiente: https://github.com/sebaselprogramador/portafolio-sebastian-rocha. Se activó GitHub Actions como fuente de GitHub Pages. La verificación final del despliegue está en curso.
